@@ -1,0 +1,156 @@
+[
+  {
+    "tag": "greeting",
+    "patterns": ["hello", "hi", "hey", "what's up", "yo"],
+    "responses": [
+      "Hey there!",
+      "Hello, how can I help you today?",
+      "Yo! Need help?",
+      "Hi! What can I do for you?",
+      "Hey! Got questions?"
+    ]
+  },
+  {
+    "tag": "attendance",
+    "patterns": ["check attendance", "attendance", "my attendance", "show attendance"],
+    "responses": [
+      "Please enter your student ID to get your attendance.",
+      "Drop your student ID and I’ll check your attendance.",
+      "Need your ID to show attendance.",
+      "Let me know your ID so I can pull up the attendance."
+    ]
+  },
+  {
+    "tag": "results",
+    "patterns": ["show results", "my marks", "exam results", "grades", "score", "results"],
+    "responses": [
+      "Enter your student ID to fetch your results.",
+      "I need your ID to get your grades.",
+      "Give me your ID and I’ll show the marks.",
+      "Results coming right up—just need your ID."
+    ]
+  },
+  {
+    "tag": "courses",
+    "patterns": ["available courses", "subjects", "show courses", "what courses are there"],
+    "responses": [
+      "We offer B.Tech, M.Tech, BBA, MBA, and PhD programs.",
+      "Your options include B.Tech, M.Tech, BBA, MBA, and even PhD.",
+      "Currently available: B.Tech, M.Tech, BBA, MBA, PhD.",
+      "Courses? You’re looking at B.Tech, M.Tech, BBA, MBA, and PhD."
+    ]
+  },
+  {
+    "tag": "fees",
+    "patterns": ["fee structure", "fees", "tuition", "payment info"],
+    "responses": [
+      "Please visit the finance portal or ask me specific program fee info.",
+      "Fee details are on the finance portal. Ask me about a specific course for more.",
+      "Wanna know the cost? Finance portal has it all. Or be specific and I’ll spill the numbers.",
+      "For accurate fee info, either visit the portal or tell me your program."
+    ]
+  },
+  {
+    "tag": "location",
+    "patterns": ["where is the library", "location of admin block", "where is canteen"],
+    "responses": [
+      "Library’s chilling on the 2nd floor. Admin block’s near Gate 1. Canteen is near gate 1 and at basement.",
+      "Library: 2nd floor. Admin Block 1st floor. Canteen: Blind guy, it's just at gate 1.",
+      "Library is up top, second floor. Admin block: 1st floor. Canteen's basement and gate 1.",
+      "You’ll find the library on the second floor. Admin block is 1st floor. Canteen? Gate no 1. Follow the smell of depression and samosas."
+    ]
+  },
+  {
+    "tag": "availability_query",
+    "patterns": ["when is teacher free", "is prof available", "can i meet teacher", "when can i meet sir", "teacher available time"],
+    "responses": [
+      "Tell me which poor soul you're trying to bother—I mean, meet.",
+      "Who's the unlucky professor you're after?",
+      "Which teacher are you looking for? Don’t say ‘all of them.’",
+      "Name the faculty and I’ll tell you when to catch 'em off-guard."
+    ]
+  },
+  {
+    "tag": "timetable_query",
+    "patterns": ["when is class", "timetable for subject", "what time is subject", "class time for subject"],
+    "responses": [
+      "Which subject are we pretending to care about now?",
+      "Drop the subject name so I can pretend this matters.",
+      "Let me know which subject, and I’ll spill the time.",
+      "Give me the subject name. I’ll fetch your daily torture schedule."
+    ]
+  },
+  {
+    "tag": "location_query",
+    "patterns": ["where is", "location of", "find", "where can i find"],
+    "responses": [
+      "Tell me what you're looking for. I'm not a mind reader—yet.",
+      "Which place? This ain't Hogwarts, I need details.",
+      "Drop the name of the location unless you want me to guess.",
+      "You want me to GPS your laziness? Tell me what you're looking for."
+    ]
+  },
+  {
+    "tag": "link",
+    "patterns": ["link test", "university link", "site link"],
+    "responses": [
+      "Sure, try gehu.ac.in",
+      "Here you go: https://www.gehu.ac.in/",
+      "You looking for the website? gehu.ac.in",
+      "Click your way into the abyss: gehu.ac.in"
+    ]
+  },
+  {
+    "tag": "unknown",
+    "patterns": [],
+    "responses": [
+      "I'm not sure what you mean. Try rephrasing?",
+      "That went over my virtual head. Can you say it differently?",
+      "Didn’t catch that. Rephrase or try something else?",
+      "Sorry, I didn’t understand. Ask something else maybe?"
+    ]
+  },
+  {
+    "tag": "class_timing",
+    "patterns": [
+      "when is class",
+      "what time is my class",
+      "class timing",
+      "when do classes start",
+      "what's the class schedule",
+      "when are lectures",
+      "what's my timetable"
+    ],
+    "responses": [
+      "Classes are from 9 AM to 5 PM, Monday to Friday. Labs usually run on Wednesdays and Fridays.",
+      "Standard class timing is 9 to 5, Monday to Friday. Don’t forget to cry during lab hours.",
+      "Your academic suffering begins at 9 AM daily, Monday to Friday. Labs will destroy your soul on Wednesdays and Fridays.",
+      "Most classes run 9 AM - 5 PM, Monday to Friday. You didn’t sign up for peace."
+    ]
+  },
+  {
+    "tag": "teacher_info",
+    "patterns": [
+      "who teaches dbms",
+      "which teacher takes dbms",
+      "who is the faculty for python",
+      "who is teaching maths",
+      "teacher for ai",
+      "who teaches software engineering",
+      "faculty of ml",
+      "professor for operating systems",
+      "who handles java"
+    ],
+    "responses": [
+      "Prof. Sharma is the poor soul stuck teaching DBMS.",
+      "Python classes are taken by Mr. Kumar, bless his patience.",
+      "Maths? That torture is delivered by Mrs. Gupta with surgical precision.",
+      "AI is taught by Dr. Raj, our resident sentient being.",
+      "Operating Systems? That’s Mr. Sinha’s domain—don’t fall asleep in his class.",
+      "Software Engineering is handled by Prof. Chatterjee—expect a lot of diagrams and chaos.",
+      "Java is taught by Ms. Neha—she's fluent in bugs and breakdowns."
+    ]
+  }
+  
+  
+]

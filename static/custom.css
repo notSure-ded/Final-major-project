@@ -1,0 +1,59 @@
+.auth-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.auth-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.auth-header {
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 1.25rem;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.toggle-password {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 10;
+}
+
+.password-field-wrapper {
+    position: relative;
+}
+
+.auth-form {
+    padding: 2rem;
+}
+
+.auth-links {
+    margin-top: 1rem;
+}
+
+/* Animation for alerts */
+.alert {
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .auth-form {
+        padding: 1rem;
+    }
+}
